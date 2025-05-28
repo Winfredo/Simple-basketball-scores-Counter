@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Home Scores for the basketball team. -->
+       <div class="flex-container">
+      <div>
+        <p class="home-text">HOME</p>
+        <p class="score-board" id="home-scores">0</p>
+        <div>
+          <button class="score-button" onclick="homePlusOne() " >+1</button>
+          <button class="score-button" onclick="homePlusTwo()">+2</button>
+          <button class="score-button" onclick="homePlusThree()">+3</button>
+        </div>
+      </div>
+      <!-- Guest scores for the opposing team. -->
+      <div>
+        <p class="home-text">GUEST</p>
+        <p class="score-board" id="guest-scores">0</p>
+        <div>
+          <button class="score-button" onclick="guestPlusOne()">+1</button>
+          <button class="score-button" onclick="guestPlusTwo()">+2</button>
+          <button class="score-button" onclick="guestPlusThree()">+3</button>
+        </div>
+      </div>
+    </div>
+        <!-- Reset button to reset the scores to zero. -->
+        <!-- <div>
+          <button class="reset-button" onclick="resetScores()">Reset</button>
+          </div>     -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
