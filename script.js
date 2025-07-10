@@ -36,3 +36,10 @@ function guestPlusThree(){
     guestcount +=3;
      guestScores.textContent = guestcount;
 }
+
+function resetScores() {
+    homecount = 0
+    guestcount = 0
+    homeScores.textContent = homecount
+    guestScores.textContent = guestcount
+}
